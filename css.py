@@ -10,19 +10,19 @@ from csscompressor import compress
 # =============================================
 config = {
     'main': {
-        'input_files': ['src/components/ProTo.scss'],
+        'input_files': ['src/components/ProSto.scss'],
         'include_paths': ['src/components'],
-        'combined_output': 'build/css/ProTo.css',
-        'compressed_output': 'build/css/ProTo.min.css'
+        'combined_output': 'build/css/ProSto.css',
+        'compressed_output': 'build/css/ProSto.min.css'
     },
     'dubak': {
         'input_files': [
-            'src/components/ProTo.scss',
-            'src/components/ProTo-dubak.scss'
+            'src/components/ProSto.scss',
+            'src/components/ProSto-CMS.scss'
         ],
         'include_paths': ['src/components'],
-        'combined_output': 'build/css/ProToD.css',
-        'compressed_output': 'build/css/ProToD.min.css'
+        'combined_output': 'build/css/ProStoCMS.css',
+        'compressed_output': 'build/css/ProStoCMS.min.css'
     }
 }
 
