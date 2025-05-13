@@ -9,7 +9,7 @@ def process_js_files(src_dir='src/components', dist_dir='build/js'):
 
     init_content = []
     vendor_content = []
-    vendor_dubak_content = []  # Для ProToD.min.js (vendor + dubak)
+    vendor_dubak_content = []  # Для ProStoCMS.min.js (vendor + dubak)
 
     init_pattern = re.compile(r'.*-init\.js$')
     vendor_pattern = re.compile(r'.*-vendor\.js$')
@@ -40,13 +40,13 @@ def process_js_files(src_dir='src/components', dist_dir='build/js'):
     # 2. ProTo.min.js (только vendor, оптимизированный)
     if vendor_content:
         optimized = rjsmin.jsmin('\n'.join(vendor_content))
-        with open(os.path.join(dist_dir, 'ProTo.min.js'), 'w', encoding='utf-8') as f:
+        with open(os.path.join(dist_dir, 'ProSto.min.js'), 'w', encoding='utf-8') as f:
             f.write(optimized)
 
     # 3. ProToD.min.js (vendor + dubak, оптимизированный)
     if vendor_dubak_content:
         optimized = rjsmin.jsmin('\n'.join(vendor_dubak_content))
-        with open(os.path.join(dist_dir, 'ProToD.min.js'), 'w', encoding='utf-8') as f:
+        with open(os.path.join(dist_dir, 'ProStoCMS.min.js'), 'w', encoding='utf-8') as f:
             f.write(optimized)
 
 
