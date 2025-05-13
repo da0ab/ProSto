@@ -31,6 +31,7 @@ ProSto.py
 css.py
 html.py
 js.py
+
 src
  ├── index-page.html
  └── components
