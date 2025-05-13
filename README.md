@@ -60,7 +60,12 @@ build
 ```
 
 Для досборки под небольшие проекты есть небольшой хак:
-Отдельный запуск **html.py** ``python html.py my-site.ru`` создает
+
+Отдельный запуск **html.py** 
+
+``python html.py my-site.ru`` 
+
+создает
  - дубль *style.css* с именем *my-site.ru.css*
  - прописывает в *index-page.html* url, где требуется
    
