@@ -35,7 +35,7 @@ src
  ├── index-page.html
  └── components
      ├── ProSto.scss
-     ├── ProStoCMS.scss
+     ├── ProSto-CMS.scss
      └── component-1
          ├── _component-1.scss
          ├── _component-1-vendor.js
