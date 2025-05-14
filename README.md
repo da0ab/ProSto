@@ -1,5 +1,11 @@
 # ProSto
-Простой сборщик web проектов на **Python3**  требуются ``pip install sass csscompressor rjsmin watchdog``
+Простой сборщик web проектов на **Python3**  требуются 
+
+``pip install sass csscompressor rjsmin watchdog``
+
+или 
+
+``pip install -r requirements.txt``
 
 - **ProSto.py** - следит за изменениями файлов в папке src
 - **css.py** - собирает *css* ориентируясь на файлы c ``@import 'component-1/_component-1.scss';``
