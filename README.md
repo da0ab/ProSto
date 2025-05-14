@@ -74,7 +74,7 @@ build
 
 создает
  - дубль *style.css* с именем *my-site.ru.css*
- - прописывает в *index-page.html* url, где требуется
+ - прописывает в *index-page.html* абсолютный путь *my-site.ru.css*, где требуется
    
 ```
  <meta property="og:image" content="https://my-site.ru/og-logo.png">
